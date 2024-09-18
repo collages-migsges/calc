@@ -1,0 +1,152 @@
+@media (min-width: 800px) {
+    
+}
+.input{
+    width: 200px;
+    margin-right: 20px;
+    margin-left: 120px;
+    margin-top: 40px;
+    height: 30px;
+    border: 0;
+    border-radius: 5px;
+}
+.calc{
+    
+    background-color: rgb(75, 75, 75);
+    margin-top: 40px;
+    margin-left: 100px;
+    margin-right: 100px;
+    height: 350px;
+    width: 700px;
+    border-radius: 10px;
+   
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.input1{
+    margin-top: 0px;
+    width: 30px;
+    height: 35px;
+    
+}
+input:focus, textarea:focus, select:focus {
+    outline: none !important;
+  }
+.names{
+    padding-top: 40px;
+    margin-left: 270px;
+    font-size: 30px;
+    font-family: candara;
+    color: white;
+}
+.input2{
+    width: 200px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 40px;
+    height: 30px;
+    border: 0;
+    border-radius: 5px;
+}
+.input3{
+    border: 0;
+    border-radius: 5px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 283px;
+    width: 195px;
+    
+}
+.input4{
+    width: 200px;
+    margin-top: 10px;
+    margin-left: 280px;
+    
+    height: 30px;
+    border: 4;
+    border-radius: 5px;
+}
+body{
+    justify-content: center;
+    display: flex;
+}
+@media (max-width: 600px){
+    .input{
+        width: 60px;
+        margin-right: 20px;
+        margin-left: 52px;
+        margin-top: 10px;
+        height: 30px;
+        border: 0;
+        border-radius: 5px;
+    }
+    .calc{
+        
+        background-color: rgb(75, 75, 75);
+        margin-top: 40px;
+        margin-left: 100px;
+        margin-right: 100px;
+        height: 250px;
+        width: 500px;
+        border-radius: 10px;
+        justify-content: center;
+       
+    }
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .input1{
+        margin-top: 0px;
+        width: 30px;
+        height: 35px;
+        border-radius: 0;
+    }
+    input:focus, textarea:focus, select:focus {
+        outline: none !important;
+      }
+    .names{
+      
+        padding-top: 20px;
+        margin-left: 80px;
+        font-size: 30px;
+        font-family: candara;
+        color: white;
+        
+    }
+    .input2{
+        width: 58px;
+        margin-right: 20px;
+        margin-left: 20px;
+        margin-top: 20px;
+        height: 30px;
+        border: 0;
+        border-radius: 5px;
+    }
+    .input3{
+        border: 0;
+        border-radius: 5px;
+        height: 40px;
+        margin-top: 10px;
+        margin-left: 53px;
+        width: 230px;
+        
+    }
+    .input4{
+        width: 200px;
+        margin-top: 10px;
+        margin-left: 50px;
+        width: 235px;
+        margin-right: 30px;
+        
+        height: 30px;
+        border: 4;
+        border-radius: 5px;
+    }
+    body{
+        justify-content: center;
+        display: flex;
+    }
+}
